@@ -1,0 +1,12 @@
+{
+  "name": "korali-construtech-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demo local no oficial de CONSTRUTECH",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "qa": "node scripts/qa.mjs && node --check assets/js/app.js && node --check scripts/browser-qa.mjs",
+    "qa:browser": "node scripts/browser-qa.mjs",
+    "serve": "python3 -m http.server 4173"
+  }
+}
